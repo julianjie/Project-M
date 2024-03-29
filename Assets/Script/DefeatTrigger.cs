@@ -10,7 +10,7 @@ public class DefeatTrigger : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene("Stage1");
+            SceneManager.LoadScene("Video");
         }
     }
 }
